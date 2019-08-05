@@ -4,6 +4,16 @@ A quick POC that compares "ActiveMQ" to "Kafka" as a request/response message br
 
 P.S: I've expected better performance from Kafka
 
+
+#Prerequisites:
+
+	add `127.0.0.1 kafka-1` to your /etc/hosts
+	run kafka docker 
+		cd kafka-docker
+		docker-compose up
+	
+
+
 Active MQ: embedded
 Kafka: Docker (Configurations available in the repo)
 

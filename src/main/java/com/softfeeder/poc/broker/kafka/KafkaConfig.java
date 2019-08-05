@@ -13,6 +13,11 @@ import org.springframework.kafka.listener.ContainerProperties;
 import org.springframework.kafka.listener.KafkaMessageListenerContainer;
 import org.springframework.kafka.requestreply.ReplyingKafkaTemplate;
 
+/**
+ * 
+ * @author ehakawati
+ *
+ */
 @Configuration
 @EnableKafka
 public class KafkaConfig {

@@ -18,6 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.softfeeder.poc.broker.activemq.ActiveMQProducer;
 import com.softfeeder.poc.broker.kafka.KafkaProducer;
 
+/**
+ * 
+ * @author ehakawati
+ *
+ */
 @RestController
 public class Controller {
 
@@ -27,6 +32,12 @@ public class Controller {
 	@Autowired
 	private KafkaProducer kafkaProducer;
 
+	/**
+	 * 
+	 * @param iterations
+	 * @param threads
+	 * @return
+	 */
 	@GetMapping("/test")
 	public ResponseEntity<String> test(@RequestParam(defaultValue = "10") final Long iterations,
 			@RequestParam(defaultValue = "2") final Long threads) {

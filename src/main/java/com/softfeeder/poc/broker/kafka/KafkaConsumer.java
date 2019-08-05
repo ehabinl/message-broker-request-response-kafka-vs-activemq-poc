@@ -10,9 +10,26 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
 
+/**
+ * 
+ * @author ehakawati
+ *
+ */
 @Service
 public class KafkaConsumer {
 
+	/**
+	 * 
+	 * @param message
+	 * @param key
+	 * @param partition
+	 * @param correlation
+	 * @param topic
+	 * @param ts
+	 * @return
+	 * @throws JMSException
+	 * @throws InterruptedException
+	 */
 	@KafkaListener(topics = KafkaConfig.TOPIC, concurrency = "40")
 	public Message<?> consumer(@Payload String message, @Header(KafkaHeaders.RECEIVED_MESSAGE_KEY) String key,
 			@Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition,
