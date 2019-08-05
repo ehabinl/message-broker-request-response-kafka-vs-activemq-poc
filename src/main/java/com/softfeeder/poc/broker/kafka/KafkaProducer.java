@@ -1,4 +1,4 @@
-package com.winfooz.producer.kafka;
+package com.softfeeder.poc.broker.kafka;
 
 import java.util.concurrent.ExecutionException;
 

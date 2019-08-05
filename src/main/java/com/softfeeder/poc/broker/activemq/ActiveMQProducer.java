@@ -1,4 +1,4 @@
-package com.winfooz.producer.activemq;
+package com.softfeeder.poc.broker.activemq;
 
 import java.util.UUID;
 

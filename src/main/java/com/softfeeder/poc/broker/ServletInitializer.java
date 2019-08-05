@@ -1,4 +1,4 @@
-package com.winfooz.producer;
+package com.softfeeder.poc.broker;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

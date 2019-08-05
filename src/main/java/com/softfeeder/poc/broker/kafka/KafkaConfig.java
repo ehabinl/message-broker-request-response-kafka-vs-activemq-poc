@@ -1,5 +1,5 @@
 
-package com.winfooz.producer.kafka;
+package com.softfeeder.poc.broker.kafka;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

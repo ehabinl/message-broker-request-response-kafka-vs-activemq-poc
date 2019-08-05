@@ -1,4 +1,4 @@
-package com.winfooz.producer.kafka;
+package com.softfeeder.poc.broker.kafka;
 
 import javax.jms.JMSException;
 

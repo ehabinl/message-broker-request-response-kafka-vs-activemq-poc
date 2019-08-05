@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.winfooz</groupId>
-	<artifactId>notifications</artifactId>
+	<artifactId>message-broker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Producer-Test</name>

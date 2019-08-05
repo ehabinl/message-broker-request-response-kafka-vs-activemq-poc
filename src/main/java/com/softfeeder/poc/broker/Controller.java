@@ -1,4 +1,4 @@
-package com.winfooz.producer;
+package com.softfeeder.poc.broker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.winfooz.producer.activemq.ActiveMQProducer;
-import com.winfooz.producer.kafka.KafkaProducer;
+import com.softfeeder.poc.broker.activemq.ActiveMQProducer;
+import com.softfeeder.poc.broker.kafka.KafkaProducer;
 
 @RestController
 public class Controller {
