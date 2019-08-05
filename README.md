@@ -5,7 +5,7 @@ A quick POC that compares "ActiveMQ" to "Kafka" as a request/response message br
 P.S: I've expected better performance from Kafka
 
 
-#Prerequisites:
+# Prerequisites:
 
 	add `127.0.0.1 kafka-1` to your /etc/hosts
 	run kafka docker 
@@ -14,11 +14,12 @@ P.S: I've expected better performance from Kafka
 	
 
 
-Active MQ: embedded
-Kafka: Docker (Configurations available in the repo)
+ Active MQ: embedded
+ 
+ Kafka: Docker (Configurations available in the repo)
 
 
-Benchmarked with 100 active threads and 100 iterations per thread ( nano time )
+# Benchmarked with 100 active threads and 100 iterations per thread ( nano time )
 
 	 Thread Active MQ Time = 2428752062
 	 Thread Active MQ Time = 2429060497
